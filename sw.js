@@ -1,0 +1,1 @@
+const C='pabs-hub-v1';const F=["index.html", "styles.css", "apps.js", "app.js", "manifest.webmanifest", "assets/brand-logo.png"];self.addEventListener('install',e=>e.waitUntil(caches.open(C).then(c=>c.addAll(F))));self.addEventListener('fetch',e=>e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request))));

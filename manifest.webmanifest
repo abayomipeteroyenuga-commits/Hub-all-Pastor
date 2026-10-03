@@ -1,0 +1,15 @@
+{
+  "name": "PASTOR ABAYOMI BIBLE STORIES HUB",
+  "short_name": "PABS HUB",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0a2b66",
+  "icons": [
+    {
+      "src": "assets/brand-logo.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}
