@@ -1,0 +1,25 @@
+{
+  "id": "/pwa/?app=daily-devotionals",
+  "name": "PASTOR ABAYOMI BIBLE STORIES — Daily Devotionals",
+  "short_name": "Daily Devotionals",
+  "description": "Installable PASTOR ABAYOMI BIBLE STORIES Hub launcher for Daily Devotionals.",
+  "start_url": "/pwa/?app=daily-devotionals",
+  "scope": "/pwa/",
+  "display": "standalone",
+  "background_color": "#f6f8fc",
+  "theme_color": "#08285f",
+  "icons": [
+    {
+      "src": "/pwa/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/pwa/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
