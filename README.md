@@ -1,15 +1,28 @@
-# PASTOR ABAYOMI BIBLE STORIES HUB v1
+# PASTOR ABAYOMI BIBLE STORIES HUB v3
 
 Recommended domain: **hub.pastorabayomibiblestorykids.org**
 
-Includes 19 application cards, search, category filters, local favourites, quick access, responsive UI, PWA support, and every app opens in a separate browser window/tab.
+## v3 ecosystem
+The Hub now contains **22 applications** and **22 installable Hub PWA launchers**.
 
+### Newly integrated / upgraded builds
+- **Bible Audio** — audio.pastorabayomibiblestorykids.org
+- **Bible Memory Centre** — memory.pastorabayomibiblestorykids.org
+- **Resource Studio** — resources.pastorabayomibiblestorykids.org
+- **Certificate & Achievement Centre** — certificate.pastorabayomibiblestorykids.org (upgrades the earlier Certificate card)
 
-## v2 — 19 PWA app launchers
-- The Hub itself remains installable as a PWA.
-- All 19 app cards now include an **Install App** action.
-- Each app has a distinct web-app manifest identity and standalone start URL under `/pwa/`.
-- Shared 192×192 and 512×512 PASTOR ABAYOMI BIBLE STORIES icons are included.
-- Supports Chromium install prompts and browser-menu installation; iPhone/iPad users can use Safari **Share → Add to Home Screen**.
-- Each installed launcher opens the live app service in a separate browser window/tab.
-- Important: because the 19 services are hosted on different subdomains, fully native origin-level offline PWA behavior still requires a manifest and service worker deployed inside each individual app repository. This Hub package provides installable launcher PWAs from the Hub origin.
+## Hub features
+- 22 application cards
+- Search and category filters
+- Local favourites
+- Latest Builds section
+- Expanded Quick Access
+- Every app opens in a separate browser tab/window
+- Every app card includes **Install App**
+- 22 distinct Hub-origin launcher manifests
+- Shared 192×192 and 512×512 PASTOR ABAYOMI BIBLE STORIES icons
+- Hub itself is installable as a PWA
+- Cache version upgraded to v3
+
+## Important PWA architecture note
+The 22 services live on separate subdomains. This Hub provides installable launcher PWAs from the Hub origin. Fully native origin-level offline/install behaviour for an individual service still requires that service's own manifest and service worker to be deployed in its own repository.
